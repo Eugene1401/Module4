@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+.page-header {
+  padding-top: 28px;
+  width: 1110px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.wrapper {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: inline-block;
+  font-size: 30px;
+  letter-spacing: -1px;
+  line-height: 32px;
+  color: #515151;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.logo::first-letter {
+  color: #1abc9c;
+  font-weight: 900;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  float: right;
+}
+.menu li {
+  float: left;
+  margin-right: 25px;
+}
+.clearfix {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.menu a {
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 11px;
+  color: #515151;
+  font-weight: 700;
+  text-align: right;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+}
+
+.menu a:hover {
+  color: #1abc9c;
+}
+.menu:last-child {
+  margin-right: 0px;
+}
+
+.section-title {
+  font-size: 48px;
+  letter-spacing: -1px;
+  line-height: 32px;
+  color: #515151;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 90px;
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  margin: 28px auto 0;
+  background-color: rgb(26, 188, 156);
+  width: 164px;
+  height: 8px;
+}
+
+.name-tag {
+  text-transform: uppercase;
+  width: 200px;
+  height: 40px;
+  background-color: #323232;
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 39px;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-weight: 900;
+  float: left;
+}
+
+.price {
+  width: 55px;
+  height: 40px;
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 39px;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-weight: 900;
+  text-align: center;
+  background-color: #818181;
+  float: left;
+  vertical-align: middle;
+}
+
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.shopping-item-card {
+  display: block;
+  float: left;
+  margin-right: 25px;
+  background-color: #e9f0fd;
+}
+.shopping-item-card:nth-last-child(-n + 4) {
+  margin-top: 30px;
+}
+.shopping-item-card:nth-child(4n) {
+  margin-right: 0px;
+}
+
+.shopping-item-card:hover .card-footer {
+  color: rgb(26, 188, 156);
+}
+
+.list-of-items {
+  float: left;
+  padding: 0;
+  margin-bottom: 80px;
+}
+
+.blog-items {
+  padding: 0px;
+  margin: 0px;
+}
+
+.blog-item {
+  display: inline-block;
+  float: left;
+  width: 350px;
+}
+
+.blog-item:not(:last-child) {
+  margin-right: 29px;
+}
+
+.blog-item-photo {
+  margin-bottom: 16px;
+}
+
+.blog-item-header {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(85, 82, 82);
+  line-height: 26px;
+  font-weight: 600;
+  margin: 0 0 26px 0;
+}
+
+.blog-item-header::after {
+  content: "";
+  display: block;
+  background-color: rgb(26, 188, 156);
+  width: 136px;
+  height: 4px;
+  margin-top: 10px;
+}
+
+.blog-item-paragraph {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(85, 82, 82);
+  line-height: 26px;
+  font-weight: 400;
+  margin: 0 0 12px 0;
+}
+
+.blog-item-button {
+  border-radius: 3px;
+  background-color: rgb(78, 198, 171);
+  width: 160px;
+  height: 52px;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 26px;
+  text-align: center;
+  font-weight: 300;
+}
